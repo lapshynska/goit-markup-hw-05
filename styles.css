@@ -57,8 +57,11 @@ button {
     font-style: normal;
 }
 
-.header-adress:hover,
-.header-adress:focus {
+.header-navigation:hover {
+    color: #404bbf;
+}
+
+.header-navigation:focus {
     color: #404bbf;
 }
 
@@ -71,7 +74,10 @@ button {
 
 }
 
-.header-contact-link:hover,
+.header-contact-link:hover {
+    color: #404bbf
+}
+
 .header-contact-item:focus {
     color: #404bbf
 }
@@ -123,7 +129,7 @@ button {
 }
 
 .team {
-    background-color: #FFFFFF
+    background-color: #F4F4FD
 }
 
 .team-title {
@@ -134,6 +140,10 @@ button {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize
+}
+
+.team-menu-list {
+    background-color: #FFFFFF
 }
 
 .team-subtitle {
