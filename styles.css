@@ -40,6 +40,14 @@ button {
     color: #4d5ae5;
 }
 
+.header-logo:hover {
+    color: #404bbf
+}
+
+.header-logo:focus {
+    color: #404bbf
+}
+
 .header-logo-color {
     color: #2e2f42;
 }
