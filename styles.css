@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF
 }
 
 ul {
@@ -32,10 +34,10 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo-color {
@@ -51,18 +53,27 @@ button {
 
 }
 
+.header-adress {
+    font-style: normal;
+}
+
+.header-adress:hover,
+.header-adress:focus {
+    color: #404bbf;
+}
+
 .header-contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-size: normal;
+
 }
 
 .header-contact-link:hover,
 .header-contact-item:focus {
-    color: #4d5ae5
+    color: #404bbf
 }
 
 
@@ -73,7 +84,7 @@ button {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
@@ -85,7 +96,15 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
 }
+
+.hero-order-btn:hover,
+.hero-order-btn:focus {
+    background-color: #404BBF;
+}
+
 
 .advantages-subtitle {
     font-weight: 500;
@@ -104,16 +123,17 @@ button {
 }
 
 .team {
-    background: #f4f4fd;
+    background-color: #FFFFFF
 }
 
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .team-subtitle {
@@ -137,10 +157,11 @@ button {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .portfolio-subtitle {
@@ -179,7 +200,9 @@ button {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+
 }
