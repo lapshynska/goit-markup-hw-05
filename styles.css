@@ -129,7 +129,7 @@ button {
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #FFFFFF
 }
 
 .team-title {
@@ -142,9 +142,7 @@ button {
     text-transform: capitalize
 }
 
-.team-menu-list {
-    background-color: #FFFFFF
-}
+
 
 .team-subtitle {
     font-weight: 500;
