@@ -197,10 +197,11 @@ button {
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    font-family: "Raleway", sans-serif
 }
 
 .footer-logo-color {
@@ -214,5 +215,5 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-
+    line-height: 1.5
 }
