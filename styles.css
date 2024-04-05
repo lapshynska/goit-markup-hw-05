@@ -61,6 +61,14 @@ button {
 
 }
 
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
+}
+
 .header-adress {
     font-style: normal;
 }
