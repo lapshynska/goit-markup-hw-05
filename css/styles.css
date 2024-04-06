@@ -4,16 +4,50 @@ body {
     background-color: #FFFFFF
 }
 
+.container {
+    width: 1158px;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 ul {
     list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+
 }
 
 a {
     text-decoration: none;
+    color: currentColor;
+}
+
+address {
+    font-style: normal;
 }
 
 button {
     cursor: pointer;
+}
+
+img {
+    display: block;
+}
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 
@@ -25,6 +59,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
 }
 
 .header-logo:hover {
@@ -39,12 +75,18 @@ button {
     color: #2e2f42;
 }
 
+.header-menu-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-menu-link {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+
 
 }
 
@@ -58,6 +100,20 @@ button {
 
 .header-adress {
     font-style: normal;
+
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-right: 332px;
+
+}
+
+.header-container {
+    display: flex;
 }
 
 .header-navigation:hover {
@@ -68,12 +124,18 @@ button {
     color: #404bbf
 }
 
+.header-contact-list {
+    display: flex;
+    gap: 40px;
+}
+
 .header-contact-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
 
 }
 
@@ -86,8 +148,18 @@ button {
 }
 
 
-.hero {
+.section {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+
+.hero-wrap {
     background: #2e2f42;
+    padding: 188px 472px 188px 472px;
+    margin: 0 auto;
+
+
 }
 
 .hero-title {
@@ -97,9 +169,14 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
+    margin-bottom: 48px;
+    width: 496px;
+
+
 }
 
 .hero-order-btn {
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -107,6 +184,10 @@ button {
     color: #fff;
     background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
+    border: none;
+    border-radius: 4px;
+    padding: 16px 32px;
+
 }
 
 .hero-order-btn:hover,
@@ -115,12 +196,25 @@ button {
 }
 
 
+
 .advantages-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    max-width: 264px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+
+.advantages-menu-list {
+    display: flex;
+
+}
+
+.advantages-menu-item {
+    width: calc((100% - 3 * 24px) / 3);
 }
 
 .advantages-menu-text {
@@ -129,14 +223,23 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    max-width: 264px;
+    margin: 0 auto;
 }
 
 .team {
-    background-color: #F4F4FD
+    background-color: #F4F4FD;
+
+}
+
+.team-menu-list {
+    display: flex;
+    gap: 24px;
 }
 
 .team-menu-item {
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
+
 }
 
 .team-title {
@@ -146,10 +249,13 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-
+.team-img {
+    margin-bottom: 32px;
+}
 
 .team-subtitle {
     font-weight: 500;
@@ -167,7 +273,10 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    padding-bottom: 32px;
 }
+
+
 
 .portfolio-title {
     font-weight: 700;
@@ -176,8 +285,23 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    padding-bottom: 72px;
 }
+
+.portfolio-menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+
+.portfolio-menu-item {
+    width: calc((100% - 24px * 2) / 3);
+    align-items: center;
+}
+
 
 .portfolio-subtitle {
     font-weight: 500;
@@ -185,6 +309,8 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
@@ -193,10 +319,18 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    margin-bottom: 32px;
 }
 
 .footer {
     background: #2e2f42;
+}
+
+.footer-wrap {
+    padding-bottom: 120px;
+    padding-top: 120px;
+    padding-left: 156px;
+
 }
 
 .footer-logo {
@@ -206,7 +340,8 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    font-family: "Raleway", sans-serif
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 16px;
 }
 
 .footer-logo-color {
@@ -220,5 +355,8 @@ button {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
-    line-height: 1.5
+    line-height: 1.5;
+    width: 264px;
+    height: 72px;
+
 }
