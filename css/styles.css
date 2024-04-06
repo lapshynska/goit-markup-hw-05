@@ -112,11 +112,12 @@ img {
     flex-grow: 1;
     justify-content: space-between;
     margin-right: 332px;
-    padding: 24px 0
+
 }
 
 .header-container {
     display: flex;
+    padding: 24px 0;
 }
 
 .header-navigation:hover {
