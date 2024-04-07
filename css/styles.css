@@ -236,6 +236,9 @@ img {
     padding: 120px 0;
 }
 
+.advantages-menu-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .advantages-subtitle {
     font-weight: 500;
@@ -256,7 +259,7 @@ img {
 
 .advantages-menu-item {
     border-radius: 0px 0px 4px 4px;
-    width: calc((100% - 72px) / 4);
+
 }
 
 .advantages-menu-item {}
