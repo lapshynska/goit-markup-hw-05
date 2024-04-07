@@ -181,10 +181,7 @@ img {
 }
 
 
-.section {
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
+
 
 .hero-section {
     padding-top: 188px;
@@ -271,6 +268,11 @@ img {
 .team {
     background-color: #F4F4FD;
 
+}
+
+.team-section {
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 
 .team-menu-list {
