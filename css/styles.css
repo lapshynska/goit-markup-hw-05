@@ -107,9 +107,7 @@ img {
 
 }
 
-.header-menu-item {
-    padding: 24px 0;
-}
+
 
 .header-menu-link:hover {
     color: #404bbf;
@@ -135,7 +133,7 @@ img {
 
 .header-container {
     display: flex;
-
+    padding: 24px 0;
 
 }
 
