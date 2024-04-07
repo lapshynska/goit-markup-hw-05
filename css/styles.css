@@ -95,7 +95,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+
 
 }
 
@@ -136,8 +136,8 @@ img {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
     padding: 0 15px;
+    padding: 24px 0;
 
 
 }
