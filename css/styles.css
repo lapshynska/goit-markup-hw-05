@@ -188,7 +188,8 @@ img {
 
 .hero-container {
     background: #2e2f42;
-    padding: 188px 0 188px 0;
+    padding-top: 188px;
+    padding-bottom: 188px;
     margin: 0 auto;
 }
 
