@@ -231,6 +231,9 @@ img {
     background-color: #404BBF;
 }
 
+.advantages-section {
+    padding: 120px 0;
+}
 
 
 .advantages-subtitle {
@@ -243,6 +246,7 @@ img {
     margin: 0 auto;
     margin-bottom: 8px;
 }
+
 
 .advantages-menu-list {
     display: flex;
@@ -336,6 +340,11 @@ img {
     color: #2e2f42;
     text-transform: capitalize;
     margin-bottom: 72px;
+}
+
+.portfolio-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .portfolio-menu-list {
