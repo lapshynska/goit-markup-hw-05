@@ -328,6 +328,7 @@ img {
 .portfolio-menu-item {
     width: calc((100% - 24px * 2) / 3);
     align-items: center;
+
 }
 
 
@@ -352,6 +353,7 @@ img {
 
 .footer {
     background: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-wrap {
@@ -369,6 +371,7 @@ img {
     text-transform: uppercase;
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -384,7 +387,7 @@ img {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     line-height: 1.5;
-    width: 264px;
+    max-width: 264px;
     height: 72px;
 
 }
