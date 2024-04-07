@@ -261,7 +261,9 @@ img {
 
 }
 
-.advantages-menu-item {}
+.advantages-menu-item {
+    width: calc((100% - 3 * 24px) / 4)
+}
 
 .advantages-menu-text {
     font-weight: 400;
@@ -361,9 +363,7 @@ img {
 
 }
 
-.portfolio-menu-item {
-    width: calc((100% - 48px) /3);
-}
+.portfolio-menu-item {}
 
 .portfolio-menu-item {
 
