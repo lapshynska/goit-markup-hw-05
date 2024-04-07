@@ -7,7 +7,7 @@ body {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px
+    padding: 0 15px 0 15px;
 }
 
 h1,
@@ -81,6 +81,7 @@ img {
 .header-menu-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0 24px;
 }
 
 .header-menu-link {
@@ -117,7 +118,7 @@ img {
 
 .header-container {
     display: flex;
-    padding: 24px 0;
+
 
 }
 
