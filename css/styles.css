@@ -148,6 +148,10 @@ img {
 
 }
 
+.header-adress {
+    padding: 24px 0;
+}
+
 .header-navigation:hover {
     color: #404bbf;
 }
