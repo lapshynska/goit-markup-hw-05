@@ -256,11 +256,10 @@ img {
 
 .advantages-menu-item {
     border-radius: 0px 0px 4px 4px;
-}
-
-.advantages-menu-item {
     width: calc((100% - 72px) / 4);
 }
+
+.advantages-menu-item {}
 
 .advantages-menu-text {
     font-weight: 400;
