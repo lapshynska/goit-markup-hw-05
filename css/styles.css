@@ -125,7 +125,7 @@ img {
 
 }
 
-.header-menu-item {
+.header-menu-list {
     padding: 24px 0;
 }
 
@@ -285,7 +285,7 @@ img {
 }
 
 .team-menu-item {
-    width: calc((100% - 72px) / 4);
+
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
 
