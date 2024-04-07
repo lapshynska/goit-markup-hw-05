@@ -356,12 +356,7 @@ img {
     padding: 100px 0;
 }
 
-.footer-wrap {
-    padding-bottom: 120px;
-    padding-top: 120px;
-    padding-left: 156px;
 
-}
 
 .footer-logo {
     font-weight: 700;
@@ -387,7 +382,7 @@ img {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     line-height: 1.5;
-    max-width: 264px;
     height: 72px;
+    max-width: 264px;
 
 }
