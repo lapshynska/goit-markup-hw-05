@@ -261,7 +261,7 @@ img {
 
 }
 
-.advantages-menu-item {
+.advantages-menu-item li {
     width: calc(100% - 72px) / 4;
 }
 
