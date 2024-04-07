@@ -186,10 +186,14 @@ img {
     padding-top: 120px;
 }
 
-.hero-container {
-    background: #2e2f42;
+.hero-section {
     padding-top: 188px;
     padding-bottom: 188px;
+}
+
+.hero-container {
+    background: #2e2f42;
+
     margin: 0 auto;
 }
 
