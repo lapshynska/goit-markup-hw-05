@@ -186,18 +186,10 @@ img {
     padding-top: 120px;
 }
 
-.hero-section {
-
-    padding: 188px 0;
-}
-
-
-.hero-wrap {
+.hero-container {
     background: #2e2f42;
-    padding: 188px 472px 188px 472px;
+    padding: 188px 0 188px 0;
     margin: 0 auto;
-
-
 }
 
 .hero-title {
