@@ -362,6 +362,10 @@ img {
 }
 
 .portfolio-menu-item {
+    width: calc((100% - 48px) /3);
+}
+
+.portfolio-menu-item {
 
 
     align-items: center;
