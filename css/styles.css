@@ -119,14 +119,14 @@ img {
     color: #404bbf;
 }
 
+.header-menu-item {
+    padding: 24px 0 24px;
+}
+
 .header-adress {
     font-style: normal;
 
 
-}
-
-.header-menu-list {
-    padding: 24px 0;
 }
 
 .header-navigation {
@@ -135,9 +135,6 @@ img {
     flex-grow: 1;
     justify-content: space-between;
     margin-right: 332px;
-
-
-
 }
 
 .header-container {
