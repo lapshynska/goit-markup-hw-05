@@ -268,7 +268,7 @@ img {
 
 .team-menu-item {
     background-color: #FFFFFF;
-
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
@@ -279,7 +279,8 @@ img {
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    margin-bottom: 72px;
+    margin-bottom: 8px;
+
 }
 
 .team-worker {
