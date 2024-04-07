@@ -120,6 +120,7 @@ img {
 
 .header-adress {
     font-style: normal;
+    padding: 24px 0;
 
 }
 
@@ -150,7 +151,7 @@ img {
 .header-contact-list {
     display: flex;
     gap: 40px;
-    padding: 24px 0
+
 }
 
 .header-contact-link {
